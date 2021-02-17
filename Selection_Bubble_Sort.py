@@ -1,5 +1,6 @@
 def selection_sort(array):
     
+    # This function scans an array trying to find the smallest element, and then swapping this item for the one in the first position.
     target = 0
     while target < len(array)-1:
         position = target
@@ -17,7 +18,7 @@ def selection_sort(array):
     
     
 def bubble_sort(array):
-    
+    #The simplest sorting algorithm. Not very efficient, though. It uses two nested loops
     while True:
         counter = len(array)
         i = 0
